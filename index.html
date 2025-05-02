@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GhostInk Inspector</title>
+        <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+        <div id="container">
+                <h1>GhostInk Inspector</h1>
+                <div id="buttonContainer">
+                        <button id="copyOriginal">Copy Original Text</button>
+                        <button id="copyClean">Copy Cleaned Text</button>
+                </div>
+                <textarea id="inputTxt" placeholder="Enter your text here"></textarea>
+                <label>Highlighted Text</label>
+                <div id="outputTxt"></div>
+        </div>
+
+        <div id="tooltip" role="tooltip" aria-live="assertive"></div>
+
+        <script src="script.js"></script>
+</body>
+</html>
